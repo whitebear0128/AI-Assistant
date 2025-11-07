@@ -5,6 +5,8 @@ An AI assistant that understands both image and text input, and provides intelli
 定义4个文件：
 1 frontend.html
 一个前端展示界面，可以接受用户输入文字，上传图片。和输出文字结果。
+![alt text](image.png)
+
 
 2 backend_image_input.py
 后端input图片调用gpt的接口。
