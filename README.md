@@ -11,6 +11,12 @@ An AI assistant that understands both image and text input, and provides intelli
 2 backend_image_input.py
 后端input图片调用gpt的接口。
 
+This script requires the following environment variables (.env) to run:  
+OPENAI_API_KEY=your OpenAI API key  
+CLOUDINARY_CLOUD_NAME=your Cloudinary account name  
+CLOUDINARY_API_KEY=your Cloudinary API key  
+CLOUDINARY_API_SECRET=your Cloudinary API secret
+
 3 backend_test_input.py
 后端input文字调用gpt的接口。
 
